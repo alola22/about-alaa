@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nawroz Uni</title>
+
+<style>
+body{
+    margin: 0;
+    background-color: #FEEBE7;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header{
+    background-color: #FFB8DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.header-link a{
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.header-link a:hover{
+    background-color: #2386fe;
+}
+
+.header-link button{
+    background-color: #ee626b;
+    color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.header-link button:hover{
+    background-color: #f2858c;
+}
+
+/* Body section */
+.bb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.ss{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <img src="vecteezy_beautiful-pink-butterfly-on-transparent-background_60298713.png" width="150">
+    <h4>ALA🩷</h4>
+    <div class="header-link">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+        <button>Sign in</button>
+    </div>
+</div>
+
+<!-- Body -->
+<div class="bb">
+    <div>
+        <h2>Welcome to my website</h2>
+        <p>
+            My name is Ala. I am 23 years old. I study Software Engineering at Newroz University.<br>
+            I am an artist, and I enjoy drawing, creativity, and expressing emotions through art.<br>
+            I love nature, calm places, and peaceful moments.<br>
+            I like exercising and staying active.<br>
+            I am interested in technology and programming, and I enjoy learning new skills.<br>
+            I believe in personal growth, creativity, and becoming better every day.<br>
+            I am a calm person, but also strong and determined when it comes to my goals.
+        </p>
+    </div>
+
+    <div>
+        <img src="alolaa.png" width="300">
+    </div>
+</div>
+
+<hr>
+<center>Skills</center>
+
+<div class="ss">
+ <div>
+   <img src="ddd.jpg" width="250">
+   <center>Basic programming</center>
+ </div>
+
+ <div>
+   <img src="sr.jpg" width="250">
+   <center>Creative thinking</center>
+ </div>
+
+ <div>
+   <img src="dr.jpg" width="250">
+   <center>Drawing & creativity</center>
+ </div>
+</div>
+
+</body>
+</html>
